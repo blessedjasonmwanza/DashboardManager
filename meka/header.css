@@ -1,0 +1,89 @@
+body{
+	margin: 0px;
+	overflow-x: hidden;
+	background-color: rgba(233, 235, 238, 1);
+}
+a:focus{
+	border-width: 0px;
+	outline: 0px;
+}
+	label.title{
+		display: inline-block; 
+		width: 100%;
+		font-size: 28px;
+		font-family: serif, cambria;
+		background-color: rgba(0, 99, 150, 1) !important;
+		color: #fff;
+		text-transform: capitalize;
+		font-weight: bold;
+		border-radius: 3px;
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		border-top: 2px solid rgba(33, 33, 33, 0.5);
+		position: relative;
+		height: 42px;
+		float: none;
+	}
+	label.title:hover{
+		border-bottom-right-radius: 0px;
+	}
+	label.title .titleimg{
+		float: right;
+	}
+	label.title .titleimg img{
+		width: 40px;
+		height: 40px;
+		border-radius: 50%;
+		margin-top: 0px;
+		margin-right: 10px;
+		cursor: pointer;
+	}
+	label.title .titleimg:hover img{
+	border:1px solid #fff;
+	transition-timing-function: ease-out;
+	animation: reverse;
+	transition-duration: 1.1s;
+	transition-delay: 0.5s;
+	transition-property: border;
+	margin-top: -2px;
+	padding: 1px;
+	}
+	label.title .titleimg a{
+		width: 200px;
+		display: none;
+
+	}
+	label.title .titleimg:hover label.mn{
+		background-color: rgba(0, 99, 150, 1) !important;
+		width: inherit;
+		height: inherit;
+		
+		padding: 1px;
+		display: inherit;
+		border-bottom-left-radius: 3px;
+		border-bottom-right-radius: 3px;
+
+	}
+	label.title .titleimg:hover a{
+		float: none;
+		display: block;		
+		width: 100px;
+		border:1px solid rgba(33, 33, 33, 0.05);
+		font-size: medium;
+		text-decoration: none;
+		text-align:center;
+		border-radius: 2px;
+		padding: 2px;
+		color: rgba(255, 255, 255, 0.5);
+		font-family: 'Cambria Math', ambria, san-serif, serif;
+		border-radius: 8px;
+	}
+	label.title .titleimg a:hover{
+		background-color: rgba(33, 33, 33, 0.3);
+		color: #FFF;
+		border-radius: 0px;
+
+	}
+	label.title .titleimg .fa-dashboardlabel{
+		margin-top: 23px;
+	}

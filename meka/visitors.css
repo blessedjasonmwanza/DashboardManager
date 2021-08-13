@@ -1,0 +1,70 @@
+a{
+	text-decoration: none;
+	width: inherit;
+	color: auto;
+}
+a div[id=vpanel]{
+	display: inline-flex;
+	width: 70%;
+	background-color: #fff;
+	height: 100px;
+	clear: all;
+	padding: 2px;
+	margin: 10px;
+	overflow: hidden;
+	margin-left: 18px;
+	color: rgba(0, 0, 0, 0.4);
+	border-radius: 30px;
+	padding-bottom: 15px;
+	box-shadow: 0px 0px 1px 1px;
+}
+a div[id=vpanel]:hover{
+	color: rgba(0, 0, 0, 0.7);
+	box-shadow: 0px 1px 3px 0px;
+	border-radius: 3px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 25px;
+}
+a div[id=vpanel] label i{
+	color: rgba(0, 0, 0, 0.6);
+}
+a div[id=vpanel]:hover label i{
+	color: rgba(102, 101, 254, 0.9);
+}
+
+a div[class=vpanel1]{
+	margin-left: 10px;
+
+}
+a div[id=vpanel] label{
+	display: inline-block;
+	width: 50%;
+	height: 90px;
+	text-align: center;
+	padding: 5px;
+	font-size: large;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+a div[id=vpanel] label[class=tag]{
+ color: rgba(102, 101, 254, 0.9);
+
+}
+a div[id=vpanel] label[class=info]{
+	font-family: /*'Baloo Thambi'*//*Bungee Inline*/Aldrich, 'cambria math', cambria, serif; 
+	font-size: 22px;
+	padding-top: 25px;
+	height: inherit;
+	margin-top: 10px;
+
+}
+a div[id=vpanel] label[class=info]:hover{
+	font-weight: bold;
+}
+
+@media (max-width: 700px){
+	a div[id=vpanel]{
+
+	}
+}

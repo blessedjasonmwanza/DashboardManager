@@ -1,0 +1,121 @@
+div#mob{
+	display: inline-block;
+	width: 20%;
+	background-color: #fff;
+	height: inherit;
+	padding: 2px;
+	color: rgba(33, 33, 33, 0.5);
+	box-shadow: 1px 0px 2px 0px;
+	overflow-x: hidden;
+}
+
+div#mob a{
+	display: inline-block;
+	width: 100%;
+	padding: 8px;
+	border-bottom:1px solid #cecece;
+	text-decoration: none;
+	color: rgba(33, 33, 33, 0.8);
+	
+}
+div#mob a:hover{
+	background-color:  rgba(0, 132, 50, 1) !important;
+	color: #FFF;
+}
+div#mob a.ac{
+	background-color:  rgba(0, 99, 150, 1) !important;
+	color: #FFF;
+}
+
+div#des{
+	display: inline-block;
+	width: 79%;
+	background-color: rgba(255, 255, 255, 0.5);
+	float: right;
+}
+div#des a{
+	text-decoration: none;
+	cursor: pointer;
+	width: inherit;
+	height: inherit;
+}
+div#des label.hdlb{
+	display: inline-block;
+	background-color: #fff;
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+	color:rgba(102, 101, 254, 0.9);
+	box-shadow: 0px 1px 1px 0px;
+	font-size: 18px;
+	font-family: 'cambria math', cambria, serif;
+
+}
+
+div#des label.hdlb i{
+	color:rgb(102, 101, 254);
+
+}
+div#des span.tab1{
+	width: 30%;
+	display: inline-block;
+	background-color: #fff;
+	text-align: center;
+	padding: 1px;
+	margin: 5px;
+	border:0px solid rgba(33, 33, 33, 0.6);
+	box-shadow: 0px 0px 1px 0px;
+	border-radius: 4px;
+	cursor: pointer;
+	
+}
+div#des span.tab1:hover{
+	color:rgba(102, 101, 254, 1);
+	cursor: pointer;
+}
+div#des span.tab1 i{
+	width: 100%;
+	display: inline-block;
+	color: rgba(0, 128, 128, 1);
+	margin-bottom: 2px;cursor: pointer;
+}
+div#des span.tab1 label.num1{
+	width: 100%;
+	font-size: 25px;
+	padding: 1px;
+	margin: 1px;
+	display: inline-block;
+	color: rgba(33, 33, 33, 0.6);
+	font-family: 'cambria math', 'cambria';cursor: pointer;
+
+}
+div#des span.tab1 label.num12{
+	width: 100%;
+	font-size: 16px;
+	padding: 1px;
+	margin: 1px;
+	display: inline-block;
+	font-family: 'cambria math', 'cambria', serif;
+	cursor: pointer;
+}
+
+@media (max-width: 700px){
+	label.title{
+		height: 80px;
+	}
+	div#des{
+		width: 100%;
+
+	}
+	div#des a{
+		width: auto;
+		padding: 10px;
+	}
+	div#des span.tab1{
+		width: 40%;
+		margin:2px;
+	}
+	div#mob{
+		display: none;
+	}
+}
